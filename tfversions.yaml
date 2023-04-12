@@ -4,6 +4,6 @@ template_repo:
 terraform:
   versions:
     - constraint: "< 0.13"
-      path: "templates/tf12"
+      path: ".tests/templates/tf12"
     - constraint: ">= 0.13"
-      path: "templates/tf1"
+      path: ".tests/templates/tf1"
