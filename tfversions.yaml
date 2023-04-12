@@ -1,0 +1,9 @@
+template_repo:
+  url: "https://github.com/gortega87/terraform-templates.git"
+
+terraform:
+  versions:
+    - constraint: "< 0.13"
+      path: "templates/tf12"
+    - constraint: ">= 0.13"
+      path: "templates/tf1"
